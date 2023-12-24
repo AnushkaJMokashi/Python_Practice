@@ -17,12 +17,14 @@ print("--------------------------")
 
 for i in range(1,11):
     print(i)
+    
 print("--------------------------")
-
+print("== list ==")
 for i in range(len(exp)):
     print('Month: ', (i+1), "  Expense: ",exp[i])
     total = total + exp[i]
 print("total", total)
+
 
 print("--------------------------")
 
@@ -34,3 +36,6 @@ for i in locations:
         break
     else:
         print("Not found in : ",i)
+
+print("--------------------------")
+
