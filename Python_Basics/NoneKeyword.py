@@ -29,3 +29,6 @@ else:
 
 # output: x and 0 are not equal
 
+
+print(type(None))
+#print(type(Null)) -- error
