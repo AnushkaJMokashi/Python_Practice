@@ -38,7 +38,7 @@ def squares(x):
 lst1 = list(map(squares, lst))
 print(lst1)
 
-##WIth reduce
+##With reduce
 from functools import *
 sum = reduce(lambda a,b:a+b,lst1)
 print(sum)
