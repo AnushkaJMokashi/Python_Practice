@@ -6,3 +6,10 @@ else:
     print("No error occurred.")
 finally:
     print("This code always runs.")
+
+##error handling
+
+try:
+    pass
+except:
+    pass
