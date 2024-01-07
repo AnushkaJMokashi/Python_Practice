@@ -28,3 +28,14 @@ print(l)
 ## Insert at particular index
 l.insert(1,10)
 print(l)
+
+## Extend
+m=[900,1000,1100]
+l.extend(m)
+print(l)
+m.extend(l)
+print(m)
+ 
+## concat lists
+k=l+m
+print(k)
